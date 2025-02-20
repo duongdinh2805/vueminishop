@@ -1,6 +1,6 @@
 <template>
   <div class="main-layout">
-    <Header />
+    <Header>ok</Header>
     <main>
       <slot></slot>
     </main>
@@ -8,6 +8,6 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import Header from './Partial/Header.vue';
 </script>
